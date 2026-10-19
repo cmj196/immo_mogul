@@ -1,0 +1,6 @@
+scripts/.cache/
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
+261002_New session prompt.md

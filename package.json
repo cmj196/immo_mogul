@@ -1,0 +1,13 @@
+{
+  "name": "immo-mogul",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "sim": "node scripts/sim.mjs",
+    "rules": "node scripts/rules-report.mjs",
+    "data:fetch": "node scripts/data/fetch-geo.mjs && node scripts/data/fetch-ckan.mjs bau_gwr_gebaeude_best_od5501 bau_gwr_wohnungen_best_od5503 bau_whg_mpe_mietpreis_raum_zizahl_gn_jahr_od5161 bau_hae_preis_stockwerkeigentum_stadtquartier_od5157 && node scripts/data/fetch-footprints.mjs",
+    "data:build": "node scripts/data/build-world.mjs",
+    "data:verify": "node scripts/data/verify-world.mjs"
+  }
+}

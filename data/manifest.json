@@ -1,0 +1,152 @@
+{
+  "built": "2026-10-19",
+  "dataVersion": "ae9f69a0db69",
+  "licenceNote": "All sources are published by Stadt Zürich under Creative Commons CC0 1.0 (CKAN licence id cc-zero).",
+  "sources": [
+    {
+      "datasetId": "bau_gwr_gebaeude_best_od5501",
+      "resourceUrl": "https://data.stadt-zuerich.ch/dataset/bau_gwr_gebaeude_best_od5501/download/BAU550OD5501.csv",
+      "retrieved": "2026-10-18",
+      "bytes": 35639965,
+      "sha256": "ef729d57d2046682167316f7054ae0d534489d7bbfaccf55737293785d0ea1f5",
+      "rows": 61889,
+      "licence": "Creative Commons CCZero (cc-zero)",
+      "header": "EGID,GDEKT,GGDENR,GGDENAME,EGRID,LPARZ,GEBNR,GBEZ,GKODE,GKODN,GKSCE,GKSCELang,GSTAT,GSTATLang,GKAT,GKATLang,GKLAS,GKLASLang,GBAUJ,GBAUM,GBAUP,GBAUPLang,GABBJ,GAREA,GVOL,GASTW,GANZWHG,GAZZI,GSCHUTZR,GSCHUTZRLang,GEBF,GWAERZH1,GWAERZH1Lang,GENH1,GENH1Lang,GWAERSCEH1,GWAERSCEH1Lang,GWAERDATH1,GWAERZH2,GWAERZH2Lang,GENH2,GENH2Lang,GWAERSCEH2,GWAERSCEH2Lang,GWAERDATH2,GWAERZW1,GWAERZW1Lang,GENW1,GENW1Lang,GWAERSCEW1,GWAERSCEW1Lang,GWAERDATW1,GWAERZW2,GWAERZW2Lang,GENW2,GENW2Lang,GWAERSCEW2,GWAERSCEW2Lang,GWAERDATW2,GEXPDAT"
+    },
+    {
+      "datasetId": "bau_gwr_wohnungen_best_od5503",
+      "resourceUrl": "https://data.stadt-zuerich.ch/dataset/bau_gwr_wohnungen_best_od5503/download/BAU550OD5503.csv",
+      "retrieved": "2026-10-18",
+      "bytes": 48049527,
+      "sha256": "e35f938e755e6ae992b2a2b6018192d99735efdffc9a57c2b68536c9e7d1b608",
+      "rows": 279890,
+      "licence": "Creative Commons CCZero (cc-zero)",
+      "header": "EGID,EWID,EDID,WHGNR,WSTWK,WSTWKLang,WBEZ,WMEHRG,WMEHRGLang,WBAUJ,WABBJ,WSTAT,WSTATLang,WAREA,WAZIM,WKCHE,WKCHELang,DKODE,DKODN,DEINR,STRNAME,DPLZ4,DPLZNAME,DEXPDAT"
+    },
+    {
+      "datasetId": "bau_whg_mpe_mietpreis_raum_zizahl_gn_jahr_od5161",
+      "resourceUrl": "https://data.stadt-zuerich.ch/dataset/bau_whg_mpe_mietpreis_raum_zizahl_gn_jahr_od5161/download/BAU516OD5161.csv",
+      "retrieved": "2026-10-18",
+      "bytes": 762657,
+      "sha256": "eab74746cd01216ca80296ab1371bc1e545a09709e0c8df441299cc644d25476",
+      "rows": 3948,
+      "licence": "Creative Commons CCZero (cc-zero)",
+      "header": "StichtagDatJahr,StichtagDatMonat,RaumeinheitSort,RaumeinheitLang,GliederungSort,GliederungLang,ZimmerSort,ZimmerLang,GemeinnuetzigSort,GemeinnuetzigLang,EinheitSort,EinheitLang,PreisartSort,PreisartLang,mean,meanl,meanu,qu25,qu25l,qu25u,qu50,qu50l,qu50u,qu75,qu75l,qu75u,Domain,Sample1,Sample2"
+    },
+    {
+      "datasetId": "bau_hae_preis_stockwerkeigentum_stadtquartier_od5157",
+      "resourceUrl": "https://data.stadt-zuerich.ch/dataset/bau_hae_preis_stockwerkeigentum_stadtquartier_od5157/download/BAU515OD5157.csv",
+      "retrieved": "2026-10-18",
+      "bytes": 65397,
+      "sha256": "04b6ddbd2e2a2e0f68664cf8ff83e64266590b87f97c40088beb48d09b4385fb",
+      "rows": 799,
+      "licence": "Creative Commons CCZero (cc-zero)",
+      "header": "Stichtagdatjahr,DatenstandCd,HAArtLevel1Sort,HAArtLevel1Cd,HAArtLevel1Lang,HASTWESort,HASTWECd,HASTWELang,RaumSort,RaumCd,RaumLang,AnzHA,HAPreisWohnflaeche,HAMedianPreis,HASumPreis"
+    },
+    {
+      "datasetId": "geo_stadtkreise",
+      "resourceUrl": "https://www.ogd.stadt-zuerich.ch/wfs/geoportal/Stadtkreise?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetFeature&TYPENAME=adm_stadtkreise_a&SRSNAME=EPSG:4326&OUTPUTFORMAT=GeoJSON",
+      "retrieved": "2026-10-18",
+      "bytes": 445697,
+      "sha256": "de75bbce347f4a4c366880bf9d8ae459320fc37d1696f6a5e95c3b2460326f7d",
+      "rows": 12,
+      "licence": "Creative Commons CCZero (cc-zero)",
+      "header": "bezeichnung,entstehung,geometrie_gdo,name,objectid,objid"
+    },
+    {
+      "datasetId": "geo_statistische_quartiere",
+      "resourceUrl": "https://www.ogd.stadt-zuerich.ch/wfs/geoportal/Statistische_Quartiere?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetFeature&TYPENAME=adm_statistische_quartiere_v&SRSNAME=EPSG:4326&OUTPUTFORMAT=GeoJSON",
+      "retrieved": "2026-10-18",
+      "bytes": 871000,
+      "sha256": "6b9fcf225d61a491fa023f7e7f84f5d6f26e2d48e65fc09529be13049c7c133a",
+      "rows": 34,
+      "licence": "Creative Commons CCZero (cc-zero)",
+      "header": "geometrie_gdo,kname,knr,objectid,objid,qname,qnr"
+    }
+  ],
+  "footprints": {
+    "available": true,
+    "layer": "av_bo_allegebaeude_a_v",
+    "url": "https://www.ogd.stadt-zuerich.ch/wfs/geoportal/Amtliche_Vermessung_Stadt_Zuerich",
+    "bbox": [
+      8.49762,
+      47.368849,
+      8.539026,
+      47.394951
+    ],
+    "tileMetres": 500,
+    "requests": 49,
+    "tilesOk": 49,
+    "tilesFailed": 0,
+    "features": 9372,
+    "distinctEgids": 8623,
+    "sha256": "d3af0636c19e9213ffda3db5b78d87aa54f80787d74fb37dd0937ea787e38593"
+  },
+  "selection": {
+    "kreise": [
+      4,
+      5
+    ],
+    "rules": {
+      "buildingStatus": "1004",
+      "gklas": [
+        "1110",
+        "1121",
+        "1122"
+      ],
+      "gkatWhenGklasMissing": "1020",
+      "flatStatus": "3004",
+      "flatArea": [
+        15,
+        300
+      ],
+      "maxFlats": 14,
+      "maxBuildings": 900,
+      "kreisMembership": "point in polygon of the LV95 to WGS84 converted register point against the Statistische Quartiere polygons (Kreis from knr); Kreis polygon as fallback"
+    },
+    "registerRows": {
+      "buildings": 61889,
+      "flats": 279890
+    },
+    "buildingDrops": {
+      "status": 7706,
+      "class": 20091,
+      "coords": 0,
+      "outsideBbox": 28797,
+      "outsidePolygons": 3006,
+      "kreisOnlyFallback": 0
+    },
+    "candidatesInKreise": 2289,
+    "flatDrops": {
+      "noFlats": 0,
+      "tooManyMissingArea": 0,
+      "noFlatInRange": 3,
+      "tooManyFlats": 336
+    },
+    "flatsMissingArea": 0,
+    "flatsOutOfRange": 141,
+    "eligible": 1950,
+    "perQuartierBefore": {
+      "41": 220,
+      "42": 575,
+      "44": 506,
+      "51": 459,
+      "52": 190
+    },
+    "perQuartierAfter": {
+      "41": 101,
+      "42": 265,
+      "44": 234,
+      "51": 212,
+      "52": 88
+    },
+    "picked": 900,
+    "flatsPicked": 6714,
+    "withFootprint": 900
+  },
+  "credits": [
+    "Statistik Stadt Zürich and Stadt Zürich Open Data (CC0): building and dwelling register, rent survey, condominium prices, boundaries",
+    "Bundesamt für Statistik: federal building and dwelling register (GWR)",
+    "Amtliche Vermessung Stadt Zürich: building footprints"
+  ]
+}
